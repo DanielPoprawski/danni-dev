@@ -11,6 +11,7 @@ import { RouterProvider } from "react-router/dom";
 
 import { Layout } from "@/routes/Layout";
 import { Index } from "@/routes/Index";
+import { About } from "@/routes/About";
 import { Resume } from "@/routes/Resume";
 import { NotFound } from "@/routes/NotFound";
 
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
     errorElement: <NotFound />,
     children: [
       { index: true, element: <Index /> },
+      { path: "about", element: <About /> },
       { path: "resume", element: <Resume /> },
       { path: "*", element: <NotFound /> },
     ],

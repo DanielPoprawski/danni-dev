@@ -16,7 +16,7 @@ export function SiteNav() {
           to="/"
           className="font-mono text-xs tracking-[0.2em] text-foreground no-underline shrink-0"
         >
-          {SITE.wordmark}
+          {SITE.name}
         </NavLink>
 
         <nav aria-label="Primary">

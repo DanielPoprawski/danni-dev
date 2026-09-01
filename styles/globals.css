@@ -6,6 +6,7 @@
 @theme {
   --font-serif: "Noto Serif Display", ui-serif, Georgia, Cambria, "Times New Roman", serif;
   --font-mono: "Victor Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-outfit: "Outfit", ui-sans-serif, system-ui, sans-serif;
 }
 
 @theme inline {

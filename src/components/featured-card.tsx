@@ -15,7 +15,7 @@ export function FeaturedCard() {
         </span>
 
         <span className="mt-6 flex items-baseline gap-3">
-          <span className="font-serif text-4xl font-bold text-foreground md:text-5xl">
+          <span className="font-outfit text-4xl font-bold text-foreground md:text-5xl">
             {FEATURED.name}
           </span>
           <span

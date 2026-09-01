@@ -29,7 +29,7 @@ export function Resume() {
             */}
             <header className="border-b border-border py-20 md:py-28">
               <p className="m-0 mb-4 font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">
-                DEV_ARCHIVE_v1.0 / RESUME
+                RESUME
               </p>
               <h1 className="m-0 font-serif text-5xl font-bold leading-[1.05] md:text-8xl">
                 Curriculum Vitae

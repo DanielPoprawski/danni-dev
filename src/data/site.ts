@@ -16,7 +16,6 @@ export const SITE = {
   name: "danni-dev.com",
   author: "Daniel Poprawski",
   tagline: "[ WELCOME TO MY PORTFOLIO! ]",
-  wordmark: "DEV_ARCHIVE_v1.0",
   footerNote: "BUILT FOR ARCHIVAL PERMANENCE",
   positioning:
     "Bridging the structural honesty of the early web with the expansive elegance of modern software engineering. I build robust digital architectures that prioritize clarity, permanence, and uncompromising performance.",
@@ -24,6 +23,7 @@ export const SITE = {
 
 export const NAV_ITEMS: readonly NavItem[] = [
   { to: "/", label: "INDEX", end: true },
+  { to: "/about", label: "ABOUT" },
   { to: "/resume", label: "RESUME" },
 ];
 
